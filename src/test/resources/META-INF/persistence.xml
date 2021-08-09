@@ -8,8 +8,6 @@
 		<class>br.com.alura.leilao.model.Leilao</class>
 		<class>br.com.alura.leilao.model.Usuario</class>
 		<properties>
-			<!--Nao eh uma boa pratica utilizar a mesma base de dados da aplicacao real
-			 para realizar os testes-->
 			<property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
 			<property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:leiloes_test" />
 			<property name="javax.persistence.jdbc.user" value="sa" />

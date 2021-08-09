@@ -12,7 +12,6 @@ public class UsuarioDao {
 
 	private EntityManager em;
 
-	/*Utilizar injeção de dependencia no construtor facilita na escrita dos testes*/
 	@Autowired
 	public UsuarioDao(EntityManager em) {
 		this.em = em;
